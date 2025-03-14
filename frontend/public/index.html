@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUILDING</title>
+    <link rel="stylesheet" type="text/css" href=""> 
+</head>
+<body style="background-color: rgb(198, 198, 212); font: 1em sans-serif;">
+
+    <div class="inputs-validation" style="background-color: rgb(102, 102, 206);">
+        <h2 style="background-color: rgb(28, 206, 146); padding-top: 0px;">HTML gives the document it structure; the skeleton</h2>
+        <h1>validating the inputs</h1>
+
+        <label>email<input type="email" placeholder="enter your password" value=""/></label><br>
+        <label>num<input type="number" min="0" max="10"/></label><br>
+        <label>limited-text<input type="text" placeholder="write here" maxlength="30"/></label><br>
+        <label>read-only-text<input type="password" readonly="true" value=""/></label>
+        <input type="file" name="email" accept="image">
+        <input type="submit">
+    </div>   
+    <div class="blocks" style="background-color: rgb(179, 214, 214);">
+        <p>
+            <h1 style="text-decoration: underline;">block and inline elements</h1>
+            Section are most important and code formatting in terms of indentation.
+        </p>
+    </div>
+    <hero-section>
+        <div class="profile-pic-and-profile-section" style="border-radius: 30%; padding-left: 120px; border: 2px; height: 100; ">
+            <img src="./static-resources/frontend-in-the-hero.jpeg" alt="profile-picture" 
+            style="height: 120px; width: 120; border-radius: 50%; opacity: 1;">
+            <h2>Hello, I'm <span style="color: rgb(23, 209, 209);">Dennis</span> Gichuki</h2>
+            <p style="font-family: 'Courier New', Courier, monospace; color: rgb(27, 18, 18);">A software Engineer</p>
+            <p>Currently working on a machine learning project, lives in Kenya.<br>
+               In love with working on open-source projects, a member of TechOps-community.
+            </p>
+        </div>
+        <nav style="display: inline;">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li>Resume</li>
+                <li>Skills</li>
+                <li>Portifolio</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        <div class="css">
+            <h1>learning about CSS and how it structures the webpage(language for styling the document)</h1>
+            <p>
+                CSS styling, there is an <em style="color: rgb(43, 226, 89);">invisible box around every element</em>
+                Rules control how sets of boxes and their contents are presented.
+
+                For the case of boxes; height, width, border-radius, padding, borders, positioning.<br>
+                For the case of texts, typeface, size, color, italics, bold, lowercase.
+
+            </p>
+            <p>
+                <h1>Using CSS</h1>
+
+                Internal and external css;for the linking.
+                &COPY;
+                Can be embedded or imported from another file, imports leads to slow webpage 
+                responses.<br>
+                We have another case where we use positioning, relative, absolute and fixed
+                for the static is by-default.
+                
+
+            </p>
+        </div>
+    </hero-section>
+
+
+
+    
+</body>
+</html>

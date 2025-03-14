@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "name": "web_programming",
+  "version": "1.0.0",
+  "description": "The only way is building",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennislog/web_programming.git"
+  },
+  "author": "~gichuki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennislog/web_programming/issues"
+  },
+  "homepage": "https://github.com/dennislog/web_programming#readme"
+}
